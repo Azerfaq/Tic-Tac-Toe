@@ -111,6 +111,7 @@ while True:
   while True:
     print ('Would you like to play again (y/n)?')
     answer = Input()
+    answer=answer.lower()
     if answer in ('y', 'n'):
       break
   if answer == 'n':
@@ -118,4 +119,5 @@ while True:
   print ('Aight, resetting...')
 
 print ('Aight, cya.')
-print (bye)
+print(bye)
+input ()
